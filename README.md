@@ -1,5 +1,5 @@
   <html>
-    <h1>Currency exchange</h2>
+    <h1>Test task</h2>
    
   <h3>  Available Scripts </h3>
 
