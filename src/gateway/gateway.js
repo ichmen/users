@@ -1,4 +1,4 @@
-const baseURL = 'https://jsonplaceholder.typicode.com/';
+const baseUrl = 'https://jsonplaceholder.typicode.com';
 
 export async function fetchUsers() {
   try {

@@ -1,0 +1,22 @@
+.modal-window {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc45;
+  z-index: 10;
+  margin: auto;
+  flex-direction: column;
+}
+.albums-table {
+  background-color: burlywood;
+  border: 2px solid pink;
+  border-radius: 4px;
+  &__title {
+    font-size: 24px;
+  }
+}

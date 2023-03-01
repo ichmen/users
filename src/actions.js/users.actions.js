@@ -31,7 +31,9 @@ export function albumsListLoaded(albumsList) {
 export function getUsers() {
   function thunkAction(dispatch) {
     try {
-      Gateway.fetchUsers().then(data => dispatch(usersListLoaded(data)));
+      Gateway.fetchUsers().then(data => {
+        return dispatch(usersListLoaded(data));
+      });
     } catch (e) {
       alert("Can't fetch or bad data");
     }
